@@ -341,7 +341,8 @@ h1, h2, h3, h4 {
 
 body {
   position: relative;
-  background-color: #EDEDED; }
+ /* background-color: #EDEDED; }*/
+ background-color: #FFFFFF; }
 
 .grid {
   max-width: 1200px;

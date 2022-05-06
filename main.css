@@ -705,7 +705,7 @@ footer {
       .home-sections section aside {
         display: none; } }
   .home-sections .home-key {
-    background: url(../img/home/keytruda_home.png) no-repeat 50%;
+    background: url(./img/logos/mirror_square.jpg) no-repeat 50%;
     background-size: cover;
     height: 600px; }
     .home-sections .home-key aside {
@@ -713,7 +713,7 @@ footer {
     .home-sections .home-key img {
       height: 64px; }
   .home-sections .home-estuary {
-    background: url(../img/home/estuary_home.png) no-repeat center 30%;
+    background: url(./img/logos/YTCS.png) no-repeat center 30%;
     background-size: cover;
     background-color: #C999BB;
     height: 600px; }

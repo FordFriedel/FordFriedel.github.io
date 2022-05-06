@@ -678,7 +678,7 @@ footer {
     width: 100%;
     height: 100%; }
     .home-sections aside h3 {
-      color: #fff;
+      color: #000;
       font-weight: 600;
       font-size: 18px;
       line-height: 24px;
@@ -705,31 +705,35 @@ footer {
     @media (max-width: 767px) {
       .home-sections section aside {
         display: none; } }
+
   .home-sections .home-key {
     background: url(./img/logos/mirror_square.jpg) no-repeat 50%;
     background-size: cover;
-    height: 600px; }
+    height: 600px;}
     .home-sections .home-key aside {
       background-color: #48A548; }
     .home-sections .home-key img {
       height: 64px; }
+
   .home-sections .home-estuary {
-    background: url(./img/logos/YTCS.png) no-repeat center 30%;
+    background: url(./img/logos/YTCS_notext.png) no-repeat center 30%;
     background-size: cover;
-    background-color: #C999BB;
+    background-color: #FFFFFF;
     height: 600px; }
     .home-sections .home-estuary aside {
-      background-color: #C999BB; }
+      background-color: #ffffb8; }
     .home-sections .home-estuary img {
       height: 64px; }
+
   .home-sections .home-nodehost {
-    background: url(../img/home/nodehost_home.jpg) no-repeat 30%;
+    background: url(./img/logos/suncountry.jpg) no-repeat 30%;
     background-size: cover;
     height: 480px; }
     .home-sections .home-nodehost aside {
       background-color: #6754FF; }
     .home-sections .home-nodehost img {
       height: 64px; }
+
   .home-sections .home-statvisor {
     background: url(../img/home/statvisor_home.png) no-repeat center 40%;
     background-size: cover;

@@ -1,0 +1,37 @@
+// TWELFTH BAR PROJECT PAGE STYLING
+
+
+
+
+
+//GLOBAL OVERRIDES
+	#twelfthbar-page{
+
+
+		.project-textblock{
+			img{
+				padding-bottom: 32px;
+			}
+		}
+
+		.page-section_fluid-background{
+			img{
+				margin: 0;
+			}
+
+			.second-image{
+				padding-left: 18px;
+
+				@include sm{
+					padding-left: 0;
+				}
+			}
+		}
+
+	}
+
+
+
+
+
+

@@ -707,7 +707,7 @@ footer {
         display: none; } }
 
   .home-sections .home-key {
-    background: url(/img/logos/mirror_square.jpg) no-repeat 50%;
+    background: url(../img/logos/mirror_square.jpg) no-repeat 50%;
     background-size: cover;
     height: 600px;}
     .home-sections .home-key aside {
@@ -716,7 +716,7 @@ footer {
       height: 64px; }
 
   .home-sections .home-estuary {
-    background: url(/img/logos/YTCS_large_notext.png) no-repeat center 30%;
+    background: url(../img/logos/YTCS_large_notext.png) no-repeat center 30%;
     background-size: cover;
     background-color: #FFFFFF;
     height: 600px; }
@@ -726,7 +726,7 @@ footer {
       height: 64px; }
 
   .home-sections .home-nodehost {
-    background: url(/img/logos/suncountry.jpg) no-repeat 30%;
+    background: url(../img/logos/suncountry.jpg) no-repeat 30%;
     background-size: cover;
     height: 480px; }
     .home-sections .home-nodehost aside {

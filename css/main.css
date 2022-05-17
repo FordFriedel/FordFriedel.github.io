@@ -782,6 +782,7 @@ footer {
       max-height: 240px;
       min-height: 240px; } }
 .page-section {
+  background-color: #FFFFFF;
   margin-top: 64px; }
   @media (max-width: 576px) {
     .page-section h5 {

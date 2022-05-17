@@ -726,7 +726,7 @@ footer {
       height: 64px; }
 
   .home-sections .home-nodehost {
-    background: url(../img/logos/suncountry.jpg) no-repeat 30%;
+    background: url() no-repeat 30%;
     background-size: cover;
     height: 480px; }
     .home-sections .home-nodehost aside {
@@ -744,7 +744,7 @@ footer {
     .home-sections .home-statvisor img {
       height: 48px; }
   .home-sections .home-misc {
-    background: url(../img/about.png) no-repeat center 40%;
+    background: url(../img/selfie.JPG) no-repeat center 40%;
     background-size: cover;
     background-color: #7B868F;
     height: 300px; }
@@ -753,7 +753,7 @@ footer {
     .home-sections .home-misc img {
       height: 48px; }
   .home-sections .home-unbranded {
-    background: url(../img/unbranded/home-unbranded.png) no-repeat left 50%;
+    background: url(../img/logos/SY.jpg) no-repeat left 50%;
     background-size: cover;
     background-color: #BF755D;
     height: 300px; }

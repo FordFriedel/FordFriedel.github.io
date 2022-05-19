@@ -707,7 +707,7 @@ footer {
         display: none; } }
 
   .home-sections .home-key {
-    background: url(/img/logos/mirror_square.jpg) no-repeat 50%;
+    background: url(../img/logos/mirror_square.jpg) no-repeat 50%;
     background-size: cover;
     height: 600px;}
     .home-sections .home-key aside {
@@ -716,7 +716,7 @@ footer {
       height: 64px; }
 
   .home-sections .home-estuary {
-    background: url(/img/logos/YTCS_large_notext.png) no-repeat center 30%;
+    background: url(../img/logos/YTCS_large_notext.png) no-repeat center 30%;
     background-size: cover;
     background-color: #FFFFFF;
     height: 600px; }
@@ -726,7 +726,7 @@ footer {
       height: 64px; }
 
   .home-sections .home-nodehost {
-    background: url(/img/logos/suncountry.jpg) no-repeat 30%;
+    background: url() no-repeat 30%;
     background-size: cover;
     height: 480px; }
     .home-sections .home-nodehost aside {
@@ -744,7 +744,7 @@ footer {
     .home-sections .home-statvisor img {
       height: 48px; }
   .home-sections .home-misc {
-    background: url(../img/about.png) no-repeat center 40%;
+    background: url(../img/selfie.JPG) no-repeat center 40%;
     background-size: cover;
     background-color: #7B868F;
     height: 300px; }
@@ -753,7 +753,7 @@ footer {
     .home-sections .home-misc img {
       height: 48px; }
   .home-sections .home-unbranded {
-    background: url(../img/unbranded/home-unbranded.png) no-repeat left 50%;
+    background: url(../img/logos/SY.jpg) no-repeat left 50%;
     background-size: cover;
     background-color: #BF755D;
     height: 300px; }
@@ -782,6 +782,7 @@ footer {
       max-height: 240px;
       min-height: 240px; } }
 .page-section {
+  background-color: #FFFFFF;
   margin-top: 64px; }
   @media (max-width: 576px) {
     .page-section h5 {
@@ -1023,7 +1024,7 @@ aside.iphone-content {
   margin-top: 88px; }
 
 #estuary-page .page-section_fluid-background {
-  background-color: #C999BB;
+  background-color: #FFFFB8;
   padding: 40px 0; }
 
 #statvisor-page .project-textblock img {

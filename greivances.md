@@ -4,3 +4,5 @@
  - Modify the .page-section
  - Teeth
  - Wrapper
+ - change the size of the sun country logo
+ 

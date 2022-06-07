@@ -1,3 +1,19 @@
+/* Error: Undefined mixin.
+ *    ,
+ * 13 | /             @include md {
+ * 14 | |                 margin-top: 12vh;
+ * 15 | \             }
+ *    '
+ *   src\css\pages\_index.scss 13:13  @import
+ *   src\css\main.scss 8:13           root stylesheet */
 
-
-/*# sourceMappingURL=main.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined mixin.\a    \2577 \a 13 \2502  \250c              @include md {\a 14 \2502  \2502                  margin-top: 12vh;\a 15 \2502  \2514              }\a    \2575 \a   src\\css\\pages\\_index.scss 13:13  @import\a   src\\css\\main.scss 8:13           root stylesheet";
+}

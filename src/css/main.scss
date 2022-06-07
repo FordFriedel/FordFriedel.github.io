@@ -1,2 +1,9 @@
 //This is the page where I import all of the other SCSS files and they get compiled to css.
 
+// GLOBAL IMPORTS
+
+// PAGE IMPORTS
+    @import "pages/about_me";
+    @import "pages/contact";
+    @import "pages/index";
+    @import "pages/mirror";

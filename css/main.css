@@ -481,9 +481,9 @@ nav {
         color: #233644;
         font-weight: 400; }
       .project-nav ul li:first-child a::after {
-        background-color: #48A548; }
+        background-color: #233644; }
       .project-nav ul li:nth-child(2) a::after {
-        background-color: pink; }
+        background-color: #edb941; }
       .project-nav ul li:nth-child(3) a::after {
         background-color: #6754FF; }
       .project-nav ul li:nth-child(4) a::after {
@@ -511,9 +511,9 @@ nav {
       .project-nav ul li.active a::after {
         opacity: 0.4; }
     .project-nav ul li:hover:first-child a {
-      color: #48A548; }
+      color: #233644; }
     .project-nav ul li:hover:nth-child(2) a {
-      color: pink; }
+      color: #edb941; }
     .project-nav ul li:hover:nth-child(3) a {
       color: #6754FF; }
     .project-nav ul li:hover:nth-child(4) a {
@@ -1195,3 +1195,22 @@ aside.iphone-content {
       overflow: hidden;
       margin: 0;
       padding: 0; }
+
+
+.title-image {
+  position:fixed;
+  top: 0;
+  z-index: -1;
+  width: 100vw;
+}
+.title-image img {
+  height: 2000px;
+  width: 100%;
+  opacity: .05;
+}
+.content {
+  z-index: 1000;
+  background-color: #000;
+  height: 8000px;
+  margin-top: 60vh;
+}

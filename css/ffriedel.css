@@ -3,7 +3,7 @@
 }
 .icon-effects:hover{
     background-color: black;
-    width: 50px;
+    width: 75px;
 }
 .hvr-grow {
     display: inline-block;
@@ -12,6 +12,6 @@
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     backface-visibility: hidden;
     -moz-osx-font-smoothing: grayscale;
-    transition-duration: 0.3s;
+    transition-duration: 0.5s;
     transition-property: transform;
 }

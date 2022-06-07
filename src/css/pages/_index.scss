@@ -1,0 +1,35 @@
+//  INDEX PAGE STYLING
+
+// HOME HERO
+    .home-hero {
+        height: 90vh;
+        margin-bottom: 48px;
+
+        >div{
+            text-align: center;
+            margin-top: 20vh;
+            max-height: 100vh;
+
+            @include md {
+                margin-top: 12vh;
+            }
+
+            @include sm {
+                height: auto;
+                margin-bottom: 80px;
+            }
+        }
+
+        text-align: center;
+
+        #name {
+            height: 40vh;
+            text-align: center;
+
+            h1 {
+                line-height: 120%;
+                margin: 0;
+                color: ;
+            }
+        }
+    }

@@ -1,7 +1,8 @@
 //This is the page where I import all of the other SCSS files and they get compiled to css.
 
 // GLOBAL IMPORTS
-    @import "variables";
+    @import "variables"; // project variables
+    @import "normalize"; // normalizes css rules for modern browsers
 
 // PAGE IMPORTS
     @import "pages/about_me";

@@ -167,10 +167,10 @@
     }
 
 // FOOTER NAVIGATION BAR
-//TODO FIX THIS SECTION, change colors and variable names to make sense with the context of the pages.
+// TODO FIX THIS SECTION, change colors and variable names to make sense with the context of the pages.
     .project-nav {
         margin-top: 80px;
-        background-color: $wd-light;
+        background-color: $ff-background;
 
         ul {
             list-style: none;
@@ -279,10 +279,10 @@
             font-weight: 200;
 
             a {
-                color: $wd-light;
+                color: $ff-background;
                 font-weight: 300;
                 text-decoration: none;
-                border-bottom: 1px solid $wd-light;
+                border-bottom: 1px solid $ff-background;
             }
         }
     }

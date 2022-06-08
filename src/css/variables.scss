@@ -19,4 +19,36 @@
 
 // CONTRACT COLORS
     $contract-green: #2c6660;
-    
+
+
+// TYPOGRAPHY
+    body, h5 {
+        font-family: 'Muli', Helvetica, sans-serif;
+        font-weight: 300;
+        font-size: 1.125rem;
+        line-height: 2rem;
+    }
+    h1, h2, h3, h4 {
+        font-family: 'Muli', Helvetica, sans-serif;
+    }
+    @mixin font-bold {
+        font-weight: 700;
+    }
+    @mixin font-semi {
+        font-weight: 600;
+    }
+
+
+// DEVICE SIZE SPECS
+    @mixin xs {
+        @media (max-width: 576px) { @content; }
+    }
+    @mixin sm {
+        @media (max-width: 767px) { @content; }
+    }
+    @mixin md {
+        @media (min-width: 1024)  { @content; }
+    }
+    @mixin lg {
+        @media (min-width: 1280px) { @content; }
+    }

@@ -617,6 +617,26 @@ footer h4 a {
   border-bottom: 1px solid #EDEDED;
 }
 
+.title-image {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  width: 100vw;
+}
+
+.title-image img {
+  height: 2000px;
+  width: 100%;
+  opacity: 0.05;
+}
+
+.content {
+  z-index: 1000;
+  background-color: #000;
+  height: 8000px;
+  margin-top: 60vh;
+}
+
 .home-hero {
   height: 90vh;
   margin-bottom: 48px;

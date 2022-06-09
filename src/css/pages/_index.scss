@@ -1,6 +1,23 @@
 //  INDEX PAGE STYLING
 
 // MIRROR BACKGROUND
+.title-image {
+    position:fixed;
+    top: 0;
+    z-index: -1;
+    width: 100vw;
+  }
+  .title-image img {
+    height: 2000px;
+    width: 100%;
+    opacity: .05;
+  }
+  .content {
+    z-index: 1000;
+    background-color: #000;
+    height: 8000px;
+    margin-top: 60vh;
+  }
 
 // HOME HERO
     .home-hero {

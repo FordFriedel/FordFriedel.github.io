@@ -1,0 +1,12 @@
+// IMPORT ALL SCSS TO BE COMPILED INTO MAIN.CSS
+
+// GLOBAL IMPORTS
+    @import "variables"; // project variables
+    @import "normalize"; // normalizes css rules for modern browsers
+    @import "global"; // stlying for every page
+
+// PAGE IMPORTS
+    @import "pages/about_me";
+    @import "pages/contact";
+    @import "pages/index";
+    @import "pages/mirror";

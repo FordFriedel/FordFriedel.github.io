@@ -1,0 +1,60 @@
+// GLOBAL VARIABLES
+
+// BEFORE CHANGING NAMES OF VARIABLES MAKE SURE THEY ARE REPLACED IN THE PROJECT FILES TOO.
+
+// PALATTE
+	$wd-blue: #233644;
+	$wd-green: #007650;
+	$wd-gray: #7B868F;
+	$ff-background: #EDEDED;
+	$wd-dark: #232628;
+	$action-blue: #27648D;
+
+	$white: #fff;
+	$black: #000;
+
+// MIRROR COLORS
+    $mirror-gold: #edb941;
+
+// YELLOWTREE COLORS
+    $ytcs-yellow: yellow; //TODO
+
+// STRATEGY VALIDATION COLORS
+    $sv-blue: blue; //TODO
+
+// CONTRACT COLORS
+    $contract-green: #2c6660;
+    $contract-purple: purple; //TODO
+
+
+// TYPOGRAPHY
+    body, h5 {
+        font-family: 'Muli', Helvetica, sans-serif;
+        font-weight: 300;
+        font-size: 1.125rem;
+        line-height: 2rem;
+    }
+    h1, h2, h3, h4 {
+        font-family: 'Muli', Helvetica, sans-serif;
+    }
+    @mixin font-bold {
+        font-weight: 700;
+    }
+    @mixin font-semi {
+        font-weight: 600;
+    }
+
+
+// DEVICE SIZE SPECS
+    @mixin xs {
+        @media (max-width: 576px) { @content; }
+    }
+    @mixin sm {
+        @media (max-width: 767px) { @content; }
+    }
+    @mixin md {
+        @media (min-width: 1024)  { @content; }
+    }
+    @mixin lg {
+        @media (min-width: 1280px) { @content; }
+    }

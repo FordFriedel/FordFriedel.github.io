@@ -550,6 +550,21 @@ nav .nav-menu a:hover {
 .project-nav ul li:nth-child(2) a::after {
   background-color: #edb941;
 }
+.project-nav ul li:nth-child(3) a::after {
+  background-color: purple;
+}
+.project-nav ul li:nth-child(4) a::after {
+  background-color: aqua;
+}
+.project-nav ul li:nth-child(5) a::after {
+  background-color: red;
+}
+.project-nav ul li:nth-child(6) a::after {
+  background-color: hotpink;
+}
+.project-nav ul li:nth-child(7) a::after {
+  background-color: seagreen;
+}
 .project-nav ul li a::after {
   content: "";
   height: 12px;
@@ -571,6 +586,21 @@ nav .nav-menu a:hover {
 }
 .project-nav ul li:hover:nth-child(2) a {
   color: #edb941;
+}
+.project-nav ul li:hover:nth-child(3) a {
+  color: purple;
+}
+.project-nav ul li:hover:nth-child(4) a {
+  color: aqua;
+}
+.project-nav ul li:hover:nth-child(5) a {
+  color: red;
+}
+.project-nav ul li:hover:nth-child(6) a {
+  color: hotpink;
+}
+.project-nav ul li:hover:nth-child(7) a {
+  color: seagreen;
 }
 .project-nav ul li:hover a::after {
   width: 12px;
@@ -644,14 +674,14 @@ footer h4 a {
 }
 
 .home-hero {
-  height: 90vh;
-  margin-bottom: 48px;
+  height: 100vh;
+  margin-bottom: 16px;
   text-align: center;
 }
 .home-hero > div {
   text-align: center;
   margin-top: 20vh;
-  max-height: 100vh;
+  max-height: 150vh;
 }
 @media (min-width: 1024) {
   .home-hero > div {
@@ -672,7 +702,7 @@ footer h4 a {
   line-height: 120%;
   margin: 0;
   color: #233644;
-  font-size: 64px;
+  font-size: 72px;
   padding-bottom: 8px;
 }
 @media (max-width: 767px) {
@@ -682,7 +712,7 @@ footer h4 a {
 }
 .home-hero #name h2 {
   color: #7B868F;
-  font-size: 32px;
+  font-size: 40px;
   font-weight: 300;
   line-height: 140%;
   margin: 12px auto;
@@ -696,6 +726,7 @@ footer h4 a {
 .home-hero #name p {
   max-width: 664px;
   margin: 0 auto 16px;
+  font-size: 18px;
 }
 .home-hero #name h4 {
   font-size: 24px;

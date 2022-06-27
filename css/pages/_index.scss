@@ -21,13 +21,13 @@
 
 // HOME HERO
     .home-hero {
-        height: 90vh;
-        margin-bottom: 48px;
+        height: 100vh;
+        margin-bottom: 16px;
 
         >div{
             text-align: center;
             margin-top: 20vh;
-            max-height: 100vh;
+            max-height: 150vh;
 
             @include md {
                 margin-top: 12vh;
@@ -49,7 +49,7 @@
                 line-height: 120%;
                 margin: 0;
                 color: $wd-blue;
-                font-size: 64px;
+                font-size: 72px;
             
                 @include sm {
                     font-size: 48px;
@@ -60,7 +60,7 @@
 
             h2 {
                 color: $wd-gray;
-                font-size: 32px;
+                font-size: 40px;
                 font-weight: 300;
                 line-height: 140%;
                 margin: 12px auto;
@@ -74,6 +74,7 @@
             p {
                 max-width: 664px;
                 margin: 0 auto 16px;
+                font-size: 18px;
             }
 
             h4 {

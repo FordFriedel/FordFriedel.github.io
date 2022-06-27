@@ -220,7 +220,7 @@
         }
 
         .home-mirror {
-            background: url(../../img/logos/MIRROR-square.jpg) no-repeat 50%;
+            background: url(../img/logos/MIRROR-square.jpg) no-repeat 50%;
             background-size: cover;
             height: 600px;
 
@@ -233,7 +233,7 @@
             }
         }
         .home-ytcs {
-            background: url(../../img/logos/YTCS-large-notext.png) no-repeat center 30%; //TOOD what does the center thing change?
+            background: url(../img/logos/YTCS-large-notext.png) no-repeat center 30%; //TOOD what does the center thing change?
             background-size: cover;
             height: 600px;
             background-color: $ytcs-yellow;
@@ -247,7 +247,7 @@
             }
         }
         .home-stratval {
-            background: url(../../img/logos/SY-banner.jpg) no-repeat left 30%; //TODO: what does left do
+            background: url(../img/logos/SY-banner.jpg) no-repeat left 30%; //TODO: what does left do
             background-size: cover;
             height: 300px;
             background-color: $sv-blue;
@@ -261,7 +261,7 @@
             }
         }
         .home-about {
-            background: url(../../img/selfie.JPG) no-repeat center 40%;
+            background: url(../img/selfie.JPG) no-repeat center 40%;
             background-size: cover;
             height: 300px;
             background-color: $action-blue;
@@ -275,7 +275,7 @@
             }
         }   
         .home-contract {
-            background:url(../../img/logos/CON-banner.png) no-repeat;
+            background:url(../img/logos/CON-banner.png) no-repeat;
             background-size: cover;
             background-color: $contract-green;
         }

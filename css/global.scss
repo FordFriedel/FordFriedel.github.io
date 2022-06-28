@@ -170,35 +170,71 @@
 // TODO FIX THIS SECTION, change colors and variable names to make sense with the context of the pages.
     .project-nav {
         margin-top: 80px;
-        background-color: $ff-background;
+        background-color: transparent;
 
-        ul {
-            list-style: none;
+        ul {       
+            list-style: none; //removes bullet points    
             padding: 0;
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
             margin: 8px 40px;
-            
+
             @include xs {
-                margin: 0;
+                margin:0;
             }
 
-            li { //TODO where is this
+            li {
                 padding: 24px;
-                
+    
                 a {
-                    position:relative;
+                    position: relative;
                     text-decoration: none;
                     color: $wd-blue;
                     font-weight: 400;
                 }
 
-                &:first-child a { // TODO: find out where this is used
+                &:first-child a{
                     &::after {
-                        background-color: pink;
+                        background-color: $contract-green;
                     }
-                }    
+                }
+                
+                &:nth-child(2) a{
+                    &::after{
+                        background-color: $mirror-gold;
+                    }
+                }
+
+                &:nth-child(3) a{
+                    &::after{
+                        background-color: purple;
+                    }
+                }
+
+                &:nth-child(4) a{
+                    &::after{
+                        background-color: aqua;
+                    }
+                }
+
+                &:nth-child(5) a{
+                    &::after{
+                        background-color: red;
+                    }
+                }
+
+                &:nth-child(6) a{
+                    &::after{
+                        background-color: hotpink;
+                    }
+                }
+
+                &:nth-child(7) a{
+                    &::after{
+                        background-color: seagreen;
+                    }
+                }
             }
 
             li a {
@@ -209,24 +245,42 @@
                     left: -8px;
                     right: 50%;
                     position: absolute;
-                    opacity: 0; //TODO: is this right?
-                    transition: 0.2s;
+                    opacity: 0; //TODO: clarify
+                    transition: .2s;
                 }
             }
 
-            li.active a { 
-                &::after {
-                    opacity: 0.4;
+            li.active a{
+                &::after{
+                    opacity: .4;
                 }
                 color: $wd-gray;
-            }            
+            }
 
             li:hover {
                 &:first-child a{
-                    color: pink;
+                    color: $contract-green;
                 }
-                
-                a::after {
+                &:nth-child(2) a{
+                    color: $mirror-gold;
+                }
+                &:nth-child(3) a{
+                    color: purple;
+                }
+                &:nth-child(4) a{
+                    color: aqua;
+                }
+                &:nth-child(5) a{
+                    color: red;
+                }
+                &:nth-child(6) a{
+                    color: hotpink;
+                }
+                &:nth-child(7) a{
+                    color: seagreen;
+                }
+
+                a::after{
                     width: 12px;
                     left: 90%;
                     right: -4px;

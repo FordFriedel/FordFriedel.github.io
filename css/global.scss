@@ -252,6 +252,7 @@
 
             li.active a{
                 &::after{
+                    bottom: 3px;
                     opacity: .4;
                 }
                 color: $wd-gray;

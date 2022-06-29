@@ -980,4 +980,56 @@ footer h4 a {
   background-color: #2c6660;
 }
 
+body.contract {
+  background-color: #120225;
+}
+
+nav .nav-menu a.contract {
+  color: #FFF;
+}
+
+.con-image {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  height: 2000px;
+  width: 100vw;
+}
+
+.con-image img {
+  height: 2000px;
+  width: 100%;
+  opacity: 1;
+}
+
+.content {
+  z-index: 1000;
+  background-color: #000;
+  height: 8000px;
+  margin-top: 60vh;
+}
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+
+.parallax__layer--back {
+  transform: translateZ(-1px);
+}
+
 /*# sourceMappingURL=main.css.map */

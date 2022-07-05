@@ -756,6 +756,7 @@ footer h4 a {
 .home-hero {
   height: 70vh;
   margin-bottom: 16px;
+  padding-bottom: 90vh;
   text-align: center;
 }
 .home-hero > div {
@@ -852,9 +853,9 @@ footer h4 a {
 #project-grid .home-grid-anchor {
   padding: 0 32px;
   width: 100%;
+  padding-bottom: 64px;
 }
 #project-grid .home-grid-anchor > a {
-  margin-top: 64px;
   width: 100%;
 }
 @media (max-width: 576px) {
@@ -870,18 +871,10 @@ footer h4 a {
   background-color: none;
 }
 
-.home-sections {
-  margin-top: 160px;
-}
 .home-sections img {
-  max-height: 60px;
   text-align: left;
 }
-.home-sections aside > div {
-  padding: 32px;
-}
 .home-sections a aside {
-  opacity: 0;
   transition: all 0.2s;
 }
 .home-sections a:hover aside {
@@ -928,15 +921,16 @@ footer h4 a {
   }
 }
 .home-sections .home-mirror {
-  background: url(../img/logos/MIRROR-square.jpg) no-repeat 50%;
+  background-color: #edb941;
   background-size: cover;
-  height: 600px;
+  height: 400px;
 }
 .home-sections .home-mirror aside {
   background-color: #edb941;
 }
 .home-sections .home-mirror img {
-  height: 64px;
+  height: cover;
+  width: 400px;
 }
 .home-sections .home-ytcs {
   background: url(../img/logos/YTCS-large-notext.png) no-repeat center 30%;
